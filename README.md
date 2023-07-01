@@ -1,17 +1,3 @@
-# Astro Starter Kit: Basics
-
-```
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
@@ -20,6 +6,9 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 │   └── favicon.svg
+│   └── image1.svg
+│   └── image2.svg
+│   └── image3.svg
 ├── src/
 │   ├── components/
 │   │   └── Card.astro
@@ -30,25 +19,35 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+finEdge-site
+Welcome to the finEdge-site! This repository contains the source code and assets for the finEdge website.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Description
+The finEdge-site repository houses the codebase for our website, which serves as a platform to showcase our financial services and offerings.
+The website is designed to provide visitors with information about our company, services, team, and contact details.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Technologies Used
+The website is built using the following technologies:
 
-## 🧞 Commands
+HTML: for structuring the web pages
+CSS: for styling and layout
+JavaScript: for interactivity and dynamic functionality
+Repository Structure
+The repository is structured as follows:
 
-All commands are run from the root of the project, from a terminal:
+index.astra: The main homepage of the website.
+css/: A directory containing CSS stylesheets.
+js/: A directory containing JavaScript files.
+assets/: A directory containing images, fonts, or any other static resources used in the website.
+Getting Started
+To set up the project locally, follow these steps:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Clone the repository: git clone https://github.com/anshu-raj-123/finEdge-site.git
+Navigate to the project directory: cd finEdge-site
+Open index.astra in your preferred web browser.
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Make your modifications.
+Commit your changes: git commit -m 'Add my feature'.
+Push to the branch: git push origin my-feature.
+Submit a pull request detailing your changes.
